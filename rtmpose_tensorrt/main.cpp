@@ -29,8 +29,8 @@ class Logger : public nvinfer1::ILogger
 int main()
 {
     // set engine file path
-    string detEngineFile = "rtmdet.engine";
-    string poseEngineFile = "rtmpose_m.engine";
+    string detEngineFile = "./model/rtmdet.engine";
+    string poseEngineFile = "./model/rtmpose_m.engine";
 
     // init model
     RTMDet det_model(detEngineFile, logger);
