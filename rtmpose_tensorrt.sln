@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtmpose_tensorrt", "rtmpose_tensorrt\rtmpose_tensorrt.vcxproj", "{87F84407-072F-40A0-94FE-C4292EB9C52C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Debug|x64.ActiveCfg = Debug|x64
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Debug|x64.Build.0 = Debug|x64
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Debug|x86.ActiveCfg = Debug|Win32
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Debug|x86.Build.0 = Debug|Win32
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Release|x64.ActiveCfg = Release|x64
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Release|x64.Build.0 = Release|x64
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Release|x86.ActiveCfg = Release|Win32
+		{87F84407-072F-40A0-94FE-C4292EB9C52C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5235F17C-B5B2-45C8-AFEE-AFF70B04A432}
+	EndGlobalSection
+EndGlobal
