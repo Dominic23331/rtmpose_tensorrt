@@ -116,8 +116,8 @@ std::vector<float> RTMPose::preprocess(cv::Mat& image)
 
 /**
  * @brief Network post-processing function
- * @param simcc_x_result SimCC x dimention output
- * @param simcc_y_result SimCC y dimention output
+ * @param simcc_x_result SimCC x dimension output
+ * @param simcc_y_result SimCC y dimension output
  * @param img_w The width of input image
  * @param img_h The height of input image
  * @return 

@@ -152,7 +152,7 @@ std::vector<Box> non_maximum_suppression(std::vector<Box> boxes, float iou_thre)
  * @param y1 The top coordinate of cut box
  * @param x2 The right coordinate of cut box
  * @param y2 The bottom coordinate of cut box
- * @return Cuted image
+ * @return Cut image
 */
 cv::Mat img_cut(cv::Mat& image, int x1, int y1, int x2, int y2)
 {
