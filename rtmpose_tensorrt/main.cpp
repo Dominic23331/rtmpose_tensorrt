@@ -30,7 +30,7 @@ int main()
 {
     // set engine file path
     string detEngineFile = "./model/rtmdet.engine";
-    string poseEngineFile = "./model/rtmpose_m.engine";
+    string poseEngineFile = "./model/rtmpose_s.engine";
 
     // init model
     RTMDet det_model(detEngineFile, logger);
