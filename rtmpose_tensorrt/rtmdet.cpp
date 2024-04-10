@@ -18,6 +18,12 @@ RTMDet::RTMDet(std::string model_path, nvinfer1::ILogger& logger, float conf_thr
 {
     // read the engine file
     std::ifstream engineStream(model_path, std::ios::binary);
+    if (!engineStream.is_open())
+    {
+        std::cout << "Engine file is not found: " << model_path << std::endl;
+        exit(0);
+    }
+
     engineStream.seekg(0, std::ios::end);
     const size_t modelSize = engineStream.tellg();
     engineStream.seekg(0, std::ios::beg);
